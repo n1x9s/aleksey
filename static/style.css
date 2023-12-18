@@ -1,0 +1,139 @@
+.aleksey{
+    position: absolute;
+    border-radius: 20%;
+    top: 20px;
+    margin-left: 340px;
+    width: 300px;
+    height: 300px;
+}
+.facts{
+    position: absolute;
+    margin-left: 820px;
+    top: 183px;
+}
+.full_name{
+    position: absolute;
+    top: 50px;
+    margin-left: 668px;
+}
+.container-fluid{
+    position: absolute;
+    top: 330px;
+}
+.text-description{
+    position: absolute;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.feedback{
+    margin-left: 300px;
+}
+.hfeedback{
+    font-size: 40px;
+    margin-left: 300px;
+}
+.feedback-div{
+    position: absolute;
+    top: 200px;
+
+}
+
+.example1{
+    position: absolute;
+    top: 150px;
+    margin-left: 300px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+.example2{
+    position: absolute;
+    top: 300px;
+    margin-left: 900px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+.example3{
+    position: absolute;
+    top: 500px;
+    margin-left: 300px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+.example4{
+    position: absolute;
+    top: 700px;
+    margin-left: 900px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+.example5{
+    position: absolute;
+    top: 900px;
+    margin-left: 300px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.hexamples{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    margin-left: 300px;
+}
+.gradient-text {
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.feedback-form .form-group {
+    margin-bottom: 20px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff579;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #fff579;
+}
+.gradient-text {
+    color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-button {
+    background-color: #fff579;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

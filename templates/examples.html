@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="hexamples gradient-text">Здесь Вы можете ознакомиться с примерами работ</h1>
+<a href="https://spotify.com/"><img class="example1" src="{{ url_for('static', filename='spotify.jpg') }}" alt="example1"></a>
+<a href="https://music.apple.com/us/browse"><img class="example2" src="{{ url_for('static', filename='applemusic.jpg') }}" alt="example2"></a>
+<a href="https://music.vk.com/?utm_source=yandex&utm_medium=cpc&utm_campaign=Yandex_VKMU_Test-Web_ua_WEB_CPC_RU_all_Levin_19%2F07%2F23__SRCH%28brand%29&utm_term=vk%20music&phrase=46226327693&gbid=5251548687&mt_link_id=ndfn41&regid=12800444497581834239&logid=12800444497581834239&mt_sub1=Yandex_VKMU_Test-Web_ua_WEB_CPC_RU_all_Levin_19%2F07%2F23__SRCH%28brand%29&mt_sub4=none&mt_sub5=91846318&mt_network=search&mt_campaign=91846318&mt_adset=5251548687&mt_creative=14738207104&yclid=12800444497581834239"><img class="example3" src="{{ url_for('static', filename='boommusic.jpg') }}" alt="example3"></a>
+<a href="https://zvuk.com/sub?ysclid=lqb6wh8hjq384716269"><img class="example4" src="{{ url_for('static', filename='sberzvuk.png') }}" alt="example4"></a>
+<a href="https://music.yandex.ru/promo/lt-pay-promo/?get-plus=1&utm_source=direct_network&utm_medium=paid_performance&utm_campaign=98292344|MSCAMP-4_%5BMU-P%5D_%7BWS%3AN%7D_RU-225_goal-PL_Tovarnaya-Promo-Domen&utm_content=cid|98292344|gid|5308521269|aid|15482640712&yclid=6167913732749131775"><img class="example5" src="{{ url_for('static', filename='yandexmusic.png') }}" alt="example5"></a>
+
+
+{% endblock %}
